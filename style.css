@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+nav{
+  height: 100px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+#nav-part1{
+ display: flex;
+ align-items: center;
+gap: 20px;
+}
+#nav-part2{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+ }
+ nav h2{
+  font-size: 30px;
+font-weight: 600;
+ }
+ nav h3{
+  font-size: 25px;
+  font-weight: 600;
+ }
+ nav h4{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ #center{
+  position: relative;
+  text-align: center;
+  padding: 40px;
+
+ }
+ #center #image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #EAF9FA;
+ background-image: url(./emoji.webp);
+  background-position:center ;
+  background-size: cover;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+ }
+ #center h4{
+  font-size: 30px;
+  margin-bottom: 40px;
+
+ }
+ #center h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 500;
+  margin-bottom: 40px;
+
+
+ }
+ #center h5{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+ }
+ #center button{
+  padding: 25px 50px;
+  background-color: black;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 600;
+
+ }
